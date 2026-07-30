@@ -1,7 +1,28 @@
 aid: mirza
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mirza.png
 name: Mirza
-description: Mirza is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Mirza is a public benefits infrastructure platform that helps government
+  agencies, health plans and MCOs, health systems, and employers enroll people
+  in social safety-net programs (Medicaid, SNAP, WIC, childcare subsidies, and
+  more) and keep them covered as eligibility rules change. It matches individuals
+  to 200+ benefits across all 50 states, verifies eligibility from existing data
+  rather than paperwork, prevents disenrollment through early exemption detection,
+  and generates audit-ready compliance documentation including H.R.1 Medicaid
+  community-engagement support. Mirza integrates with existing eligibility systems
+  rather than replacing them. Founded in 2020 by Siran Cao and Mel Faxon; backed
+  by 500 Global and others.
 url: https://raw.githubusercontent.com/api-evangelist/mirza/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Public Benefits
+- Government
+- Healthcare
+- Medicaid
+- Eligibility
+- Compliance
+- Public Sector
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,26 @@ maintainers:
 common:
 - type: Website
   url: https://heymirza.com
+- type: Support
+  url: https://heymirza.com/contact
+- type: TermsOfService
+  url: https://heymirza.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://heymirza.com/privacy-policy
+- type: StatusPage
+  url: https://status.heymirza.com/
+- type: Security
+  url: https://heymirza.com/security
+- type: TrustCenter
+  url: security/mirza-trust-center.yml
+- type: Compliance
+  url: https://heymirza.com/security
+- type: DomainSecurity
+  url: security/mirza-domain-security.yml
+- type: LinkedIn
+  url: https://www.linkedin.com/company/hey-mirza
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
