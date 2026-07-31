@@ -1,0 +1,29 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+source: https://heymirza.com/security
+url: https://trust.heymirza.com
+security_page: https://heymirza.com/security
+certifications:
+- SOC 2 Type II
+- HIPAA
+auditor: Sensiba
+controls:
+- AES-256 encryption at rest
+- TLS 1.3 in transit
+- annual third-party penetration testing
+- 24/7 monitoring
+- least-privilege access controls
+data_handling: Mirza does not ask for, store, or transmit immigration status; account
+  deletion results in permanent removal within 30 days.
+security_contact: security@heymirza.com
+evidence:
+- source: https://heymirza.com/security
+  keywords:
+  - soc 2 type ii
+  - hipaa
+  - trust center
+  - sensiba
+- source: https://trust.heymirza.com
+  keywords:
+  - trust center
